@@ -1,0 +1,16 @@
+# Môi trường ảo Python
+venv/
+__pycache__/
+*.pyc
+
+# Biến môi trường bảo mật (API Keys)
+.env
+
+# Thư mục dữ liệu tạm và Vector DB cục bộ
+data/*
+!data/.gitkeep
+chroma_db/
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
